@@ -1,3 +1,7 @@
+-- File: code-challenge.pig
+-- Prashanth Poddishetty, 6 April, 2018
+--Description: Code written for code challenge
+
 register /home/cloudera/Downloads/piggybank.jar
 
 dataset1 = load 'user/workspace/33/ccds1.csv' using org.apache.pig.piggybank.storage.CSVExcelStorage() as (id:chararray, UA:chararray);
