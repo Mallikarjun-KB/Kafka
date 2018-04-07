@@ -12,4 +12,6 @@ part-r-00000 contains 6 fields with ID, Country,UA,F1,F2,F3 with all EU countrie
 
 Note: The file locations have to be changed accordingly in the code-challenge.pig file.  
 
+Java/CodeChallenge folder contains maven project solving the given challenge.
+The output for maven projects is set to target folder.
 
